@@ -82,9 +82,9 @@ body {
   height: 80vh;
 }
 
-.vitruvis,
-.lastsupper,
-.monalisa {
+.vitruvis a,
+.lastsupper a,
+.monalisa  a{
   text-decoration: underline;
   text-decoration-thickness: 2px;
   color: white;
