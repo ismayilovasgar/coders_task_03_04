@@ -9,28 +9,18 @@ body {
   background-color: #747265;
 }
 
-.myshadow {
-  -webkit-box-shadow: 3px 3px 15px 1px rgba(186, 31, 17, 0.73);
-  box-shadow: 3px 3px 15px 1px rgba(186, 31, 17, 0.73);
-}
-
-.firstheading {
-  color: #efebed;
-  font-size: 36px;
-  font-family: "Shantell Sans", cursive;
-  font-weight: 900;
-  text-decoration: underline;
-  text-decoration-color: rgb(245, 102, 102);
-  text-shadow: 4px 4px 47px rgba(255, 16, 16, 0.75),
-    4px 4px 47px rgba(206, 51, 51, 0.75);
-  /* text-shadow: 5px 5px 8px rgba(186, 31, 17, 0.73); */
-}
-
 .container {
   width: 90vw;
   margin: 3em auto;
   border: 7px solid #3b3631;
 }
+
+/* used in other places */
+.myshadow {
+  -webkit-box-shadow: 3px 3px 15px 1px rgba(186, 31, 17, 0.73);
+  box-shadow: 3px 3px 15px 1px rgba(186, 31, 17, 0.73);
+}
+
 .section {
   display: flex;
   align-items: center;
@@ -53,6 +43,33 @@ body {
   line-height: 2.4rem;
 }
 
+.article {
+  width: 75%;
+  margin: 2rem auto;
+}
+
+.article p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 24px;
+  text-align: justify;
+  word-spacing: 4px;
+  letter-spacing: 4px;
+  line-height: 32px;
+}
+
+/* section in top  */
+.firstheading {
+  color: #efebed;
+  font-size: 36px;
+  font-family: "Shantell Sans", cursive;
+  font-weight: 900;
+  text-decoration: underline;
+  text-decoration-color: rgb(245, 102, 102);
+  text-shadow: 4px 4px 47px rgba(255, 16, 16, 0.75),
+    4px 4px 47px rgba(206, 51, 51, 0.75);
+  /* text-shadow: 5px 5px 8px rgba(186, 31, 17, 0.73); */
+}
+
 .section .leonardo {
   color: white;
   font-size: 32px;
@@ -65,19 +82,6 @@ body {
   height: 80vh;
 }
 
-.article {
-  width: 75%;
-  margin: 2rem auto;
-}
-.article p {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 24px;
-  text-align: justify;
-  word-spacing: 4px;
-  letter-spacing: 4px;
-  line-height: 32px;
-}
-
 .vitruvis,
 .lastsupper,
 .monalisa {
@@ -88,6 +92,8 @@ body {
   font-family: "Titillium Web", sans-serif;
   text-shadow: 4px 4px 15px rgba(255, 16, 16, 0.65);
 }
+
+/* section in bottom  */
 .mybottomimg {
   width: 60vw;
   margin: 2rem auto 0.5rem;
@@ -101,6 +107,7 @@ body {
   margin: 2rem auto 0.5rem;
   text-shadow: 4px 4px 11px rgba(245, 244, 244, 0.945);
 }
+
 .mybottomsection > p {
   margin: 1.5rem 5rem 4rem 5rem;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -108,7 +115,7 @@ body {
   text-align: justify;
   word-spacing: 2px;
   letter-spacing: 2px;
-  line-height: 3rem;
+  line-height: 2.5rem;
 }
 .smooth-text {
   color: white;
